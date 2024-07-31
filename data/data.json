@@ -1,0 +1,1340 @@
+[
+    {
+        "sentence": "Fetch user data and display it in a modal when a button is clicked.",
+        "nodes": [
+            "OnClick",
+            "FetchData",
+            "DisplayModal"
+        ]
+    },
+    {
+        "sentence": "Reduce a list of scores to find the highest score and log the result.",
+        "nodes": [
+            "Reduce",
+            "Log"
+        ]
+    },
+    {
+        "sentence": "Cache fetched data to improve performance and display the data on the screen.",
+        "nodes": [
+            "FetchData",
+            "CacheData",
+            "Show"
+        ]
+    },
+    {
+        "sentence": "Log a message when a key is pressed and display the key value on the screen.",
+        "nodes": [
+            "OnKeyPress",
+            "Log",
+            "Show"
+        ]
+    },
+    {
+        "sentence": "Highlight an element when the mouse enters it and close the modal when the mouse leaves.",
+        "nodes": [
+            "OnMouseEnter",
+            "Highlight",
+            "OnMouseLeave",
+            "CloseModal"
+        ]
+    },
+    {
+        "sentence": "Filter out items that are out of stock and sort the remaining items by price before displaying them on the screen.",
+        "nodes": [
+            "Filter",
+            "Sort",
+            "Show"
+        ]
+    },
+    {
+        "sentence": "Send a network request when a key is released, log the response, and display the data on the screen.",
+        "nodes": [
+            "OnKeyRelease",
+            "SendRequest",
+            "Log",
+            "Show"
+        ]
+    },
+    {
+        "sentence": "Display an alert message and update the screen layout when the window is resized.",
+        "nodes": [
+            "OnWindowResize",
+            "Alert",
+            "Update"
+        ]
+    },
+    {
+        "sentence": "Filter the data whenever a specified variable changes and update the display accordingly.",
+        "nodes": [
+            "OnVariableChange",
+            "Filter",
+            "Update"
+        ]
+    },
+    {
+        "sentence": "Fetch new data at specified time intervals and render it as a chart on the screen.",
+        "nodes": [
+            "OnTimer",
+            "FetchData",
+            "RenderChart"
+        ]
+    },
+    {
+        "sentence": "Show a tooltip when the mouse enters an element and hide it when the mouse leaves.",
+        "nodes": [
+            "OnMouseEnter",
+            "Tooltip",
+            "OnMouseLeave",
+            "Hide"
+        ]
+    },
+    {
+        "sentence": "Assign a value when an element is clicked and store the data in local storage.",
+        "nodes": [
+            "OnClick",
+            "Assign",
+            "StoreData"
+        ]
+    },
+    {
+        "sentence": "Send a network request, cache the response data, transform the data format, and display it in a modal.",
+        "nodes": [
+            "SendRequest",
+            "CacheData",
+            "Map",
+            "DisplayModal"
+        ]
+    },
+    {
+        "sentence": "Fetch data from multiple sources, merge the datasets, sort the combined data, and render it as a chart.",
+        "nodes": [
+            "FetchData",
+            "Merge",
+            "Sort",
+            "RenderChart"
+        ]
+    },
+    {
+        "sentence": "When an element is clicked, evaluate a condition and navigate to different pages based on the result.",
+        "nodes": [
+            "OnClick",
+            "Branch",
+            "Navigate"
+        ]
+    },
+    {
+        "sentence": "Play a sound and display the key value on the screen when a key is pressed.",
+        "nodes": [
+            "OnKeyPress",
+            "PlaySound",
+            "Show"
+        ]
+    },
+    {
+        "sentence": "Fetch data from an API, split the data into multiple parts, merge the data by a specified attribute, and render it as a chart.",
+        "nodes": [
+            "FetchData",
+            "Split",
+            "Merge",
+            "RenderChart"
+        ]
+    },
+    {
+        "sentence": "Fetch data when an element is clicked, update the data with new values, and save the updated data.",
+        "nodes": [
+            "OnClick",
+            "FetchData",
+            "UpdateData",
+            "Save"
+        ]
+    },
+    {
+        "sentence": "Play a sound and navigate to a new page when an element is clicked.",
+        "nodes": [
+            "OnClick",
+            "PlaySound",
+            "Navigate"
+        ]
+    },
+    {
+        "sentence": "Filter the items based on the key pressed and display the filtered items on the screen.",
+        "nodes": [
+            "OnKeyPress",
+            "Filter",
+            "Show"
+        ]
+    },
+    {
+        "sentence": "Highlight an element and show a tooltip when the mouse enters it.",
+        "nodes": [
+            "OnMouseEnter",
+            "Highlight",
+            "Tooltip"
+        ]
+    },
+    {
+        "sentence": "Send a network request when a key is released and update the display with the response data.",
+        "nodes": [
+            "OnKeyRelease",
+            "SendRequest",
+            "Update"
+        ]
+    },
+    {
+        "sentence": "Log a message and update the screen layout when the window is resized.",
+        "nodes": [
+            "OnWindowResize",
+            "Log",
+            "Update"
+        ]
+    },
+    {
+        "sentence": "Cache data at specified time intervals and render it as a chart on the screen.",
+        "nodes": [
+            "OnTimer",
+            "CacheData",
+            "RenderChart"
+        ]
+    },
+    {
+        "sentence": "Transform the data whenever a specified variable changes and display the transformed data on the screen.",
+        "nodes": [
+            "OnVariableChange",
+            "Map",
+            "Show"
+        ]
+    },
+    {
+        "sentence": "Delete specified data and log the action when an element is clicked.",
+        "nodes": [
+            "OnClick",
+            "Delete",
+            "Log"
+        ]
+    },
+    {
+        "sentence": "Fetch data from an API, group the data by a specified attribute, and print message to the console.",
+        "nodes": [
+            "FetchData",
+            "GroupBy",
+            "Console"
+        ]
+    },
+    {
+        "sentence": "Hide an element and log a message then delete the data when the mouse leaves it.",
+        "nodes": [
+            "OnMouseLeave",
+            "Hide",
+            "Log",
+            "DeleteData"
+        ]
+    },
+    {
+        "sentence": "Play a sound and display a message and pause sound when a key is released.",
+        "nodes": [
+            "OnKeyRelease",
+            "PlaySound",
+            "Show",
+            "PauseSound"
+        ]
+    },
+    {
+        "sentence": "Stop the sound and display a message and delete the data when a key is released.",
+        "nodes": [
+            "OnKeyRelease",
+            "StopSound",
+            "Show",
+            "DeleteData"
+        ]
+    },
+    {
+        "sentence": "Send a network request and display the response data in a modal when an element is clicked.",
+        "nodes": [
+            "OnClick",
+            "SendRequest",
+            "DisplayModal"
+        ]
+    },
+    {
+        "sentence": "Send a network request and close the modal when an element is clicked.",
+        "nodes": [
+            "OnClick",
+            "SendRequest",
+            "CloseModal"
+        ]
+    },
+    {
+        "sentence": "Fetch data from an API, sort the data, and cache the sorted data.",
+        "nodes": [
+            "FetchData",
+            "Sort",
+            "CacheData"
+        ]
+    },
+    {
+        "sentence": "Log a message and display it on the screen at specified time intervals.",
+        "nodes": [
+            "OnTimer",
+            "Log",
+            "Show"
+        ]
+    },
+    {
+        "sentence": "Navigate to a new page when a key is pressed.",
+        "nodes": [
+            "OnKeyPress",
+            "Navigate"
+        ]
+    },
+    {
+        "sentence": "Evaluate a condition when an element is clicked and display different information based on the result.",
+        "nodes": [
+            "OnClick",
+            "Branch",
+            "Show"
+        ]
+    },
+    {
+        "sentence": "Fetch data from an API, transform the data format, and display it on the screen.",
+        "nodes": [
+            "FetchData",
+            "Map",
+            "Show"
+        ]
+    },
+    {
+        "sentence": "Assign a new value to a variable and log the change whenever the variable changes.",
+        "nodes": [
+            "OnVariableChange",
+            "Assign",
+            "Log"
+        ]
+    },
+    {
+        "sentence": "Play a sound and highlight an element when the mouse enters it and pause sound when mouse leaves it.",
+        "nodes": [
+            "OnMouseEnter",
+            "PlaySound",
+            "Highlight",
+            "OnMouseLeave",
+            "PauseSound"
+        ]
+    },
+    {
+        "sentence": "Send a network request and render the response data as a chart when an element is clicked.",
+        "nodes": [
+            "OnClick",
+            "SendRequest",
+            "RenderChart"
+        ]
+    },
+    {
+        "sentence": "When a variable changes, fetch data, transform it, update the information, and display it on the screen.",
+        "nodes": [
+            "OnVariableChange",
+            "FetchData",
+            "Map",
+            "Update",
+            "Show"
+        ]
+    },
+    {
+        "sentence": "Send a network request when an element is clicked, cache the response data, log the details, and display the data in a modal.",
+        "nodes": [
+            "OnClick",
+            "SendRequest",
+            "CacheData",
+            "Log",
+            "DisplayModal"
+        ]
+    },
+    {
+        "sentence": "When the mouse enters an element, fetch data, filter it, highlight the element, and display the filtered data.",
+        "nodes": [
+            "OnMouseEnter",
+            "FetchData",
+            "Filter",
+            "Highlight",
+            "Show"
+        ]
+    },
+    {
+        "sentence": "When a key is pressed, transform the data, assign a value, store it, and display the data on the screen.",
+        "nodes": [
+            "OnKeyPress",
+            "Map",
+            "Assign",
+            "StoreData",
+            "Show"
+        ]
+    },
+    {
+        "sentence": "Fetch data when the window is resized, merge it with existing data, update the information, and render it as a chart.",
+        "nodes": [
+            "OnWindowResize",
+            "FetchData",
+            "Merge",
+            "Update",
+            "RenderChart"
+        ]
+    },
+    {
+        "sentence": "At specified time intervals, fetch data, split it into parts, group the data by an attribute, and print message to the console.",
+        "nodes": [
+            "OnTimer",
+            "FetchData",
+            "Split",
+            "GroupBy",
+            "Console"
+        ]
+    },
+    {
+        "sentence": "When an element is clicked, evaluate a condition, send a network request based on the result, update the data, and log the action.",
+        "nodes": [
+            "OnClick",
+            "Branch",
+            "SendRequest",
+            "Update",
+            "Log"
+        ]
+    },
+    {
+        "sentence": "Play a sound, show a tooltip, highlight the element, and display information when the mouse enters.",
+        "nodes": [
+            "OnMouseEnter",
+            "PlaySound",
+            "Tooltip",
+            "Highlight",
+            "Show"
+        ]
+    },
+    {
+        "sentence": "Log a message, filter the data, sort it, and display the sorted data when a key is released.",
+        "nodes": [
+            "OnKeyRelease",
+            "Log",
+            "Filter",
+            "Sort",
+            "Show"
+        ]
+    },
+    {
+        "sentence": "Navigate to a new page, fetch data, update the information, and display it when an element is clicked.",
+        "nodes": [
+            "OnClick",
+            "Navigate",
+            "FetchData",
+            "Update",
+            "Show"
+        ]
+    },
+    {
+        "sentence": "Fetch data, evaluate a condition, stop the sound, update the existing data, and display it.",
+        "nodes": [
+            "FetchData",
+            "Branch",
+            "StopSound",
+            "UpdateData",
+            "Show"
+        ]
+    },
+    {
+        "sentence": "When a variable changes, send a network request, cache the data, update the information, and close the modal dialog.",
+        "nodes": [
+            "OnVariableChange",
+            "SendRequest",
+            "CacheData",
+            "Update",
+            "CloseModal"
+        ]
+    },
+    {
+        "sentence": "Log a message, reduce the items into one, assign a value, and display the information when a key is pressed.",
+        "nodes": [
+            "OnKeyPress",
+            "Log",
+            "Reduce",
+            "Assign",
+            "Show"
+        ]
+    },
+    {
+        "sentence": "Highlight an element, log a message, show a tooltip, and delete data when the mouse enters.",
+        "nodes": [
+            "OnMouseEnter",
+            "Highlight",
+            "Log",
+            "Tooltip",
+            "Delete"
+        ]
+    },
+    {
+        "sentence": "Fetch data when an element is clicked, merge it with existing data, cache the result, and render it as a chart.",
+        "nodes": [
+            "OnClick",
+            "FetchData",
+            "Merge",
+            "CacheData",
+            "RenderChart"
+        ]
+    },
+    {
+        "sentence": "When a key is released, transform the data, assign a value, store it, and display the data.",
+        "nodes": [
+            "OnKeyRelease",
+            "Map",
+            "Assign",
+            "StoreData",
+            "Show"
+        ]
+    },
+    {
+        "sentence": "Log a message, update the layout, fetch data, and display the information when the window is resized.",
+        "nodes": [
+            "OnWindowResize",
+            "Log",
+            "Update",
+            "FetchData",
+            "Show"
+        ]
+    },
+    {
+        "sentence": "At specified time intervals, fetch data, sort it, group it by an attribute, and render it as a chart.",
+        "nodes": [
+            "OnTimer",
+            "FetchData",
+            "Sort",
+            "GroupBy",
+            "RenderChart"
+        ]
+    },
+    {
+        "sentence": "Send a network request when an element is clicked, evaluate a condition, update the data based on the result, and display it.",
+        "nodes": [
+            "OnClick",
+            "SendRequest",
+            "Branch",
+            "UpdateData",
+            "Show"
+        ]
+    },
+    {
+        "sentence": "When a variable changes, fetch data, merge it with existing data, filter the results, and display the filtered data.",
+        "nodes": [
+            "OnVariableChange",
+            "FetchData",
+            "Merge",
+            "Filter",
+            "Show"
+        ]
+    },
+    {
+        "sentence": "When an element is clicked, fetch data, sort it, splits data into multiple parts and display the sorted data.",
+        "nodes": [
+            "OnClick",
+            "FetchData",
+            "Sort",
+            "Split",
+            "Show"
+        ]
+    },
+    {
+        "sentence": "Highlight an element when the mouse enters, fetch data, and display the data.",
+        "nodes": [
+            "OnMouseEnter",
+            "Highlight",
+            "FetchData",
+            "Show"
+        ]
+    },
+    {
+        "sentence": "Send a network request when a key is released, log the response, and update the display with the new information.",
+        "nodes": [
+            "OnKeyRelease",
+            "SendRequest",
+            "Log",
+            "Update"
+        ]
+    },
+    {
+        "sentence": "Log a message when a variable changes, filter the data based on the new variable value, and display the filtered data.",
+        "nodes": [
+            "OnVariableChange",
+            "Log",
+            "Filter",
+            "Show"
+        ]
+    },
+    {
+        "sentence": "Fetch data when the window is resized, update the information, and render it as a chart.",
+        "nodes": [
+            "OnWindowResize",
+            "FetchData",
+            "Update",
+            "RenderChart"
+        ]
+    },
+    {
+        "sentence": "Send a network request at specified time intervals, cache the response data, and display it.",
+        "nodes": [
+            "OnTimer",
+            "SendRequest",
+            "CacheData",
+            "Show"
+        ]
+    },
+    {
+        "sentence": "Log a message when an element is clicked, assign a value, and display an alert.",
+        "nodes": [
+            "OnClick",
+            "Log",
+            "Assign",
+            "Alert"
+        ]
+    },
+    {
+        "sentence": "Hide an element when the mouse leaves, log a message, and display additional information.",
+        "nodes": [
+            "OnMouseLeave",
+            "Hide",
+            "Log",
+            "Show"
+        ]
+    },
+    {
+        "sentence": "Log a message when a key is pressed, filter the data, and update the display with the filtered results.",
+        "nodes": [
+            "OnKeyPress",
+            "Log",
+            "Filter",
+            "Update"
+        ]
+    },
+    {
+        "sentence": "Fetch data from an API, transform the data format, cache it, and display the data.",
+        "nodes": [
+            "FetchData",
+            "Map",
+            "CacheData",
+            "Show"
+        ]
+    },
+    {
+        "sentence": "Play a sound when the mouse enters an element, print message to the console, show a tooltip, and highlight the element.",
+        "nodes": [
+            "OnMouseEnter",
+            "PlaySound",
+            "Console",
+            "Tooltip",
+            "Highlight"
+        ]
+    },
+    {
+        "sentence": "Log a message when a key is released, assign a value, and save the data to database.",
+        "nodes": [
+            "OnKeyRelease",
+            "Log",
+            "Assign",
+            "Save"
+        ]
+    },
+    {
+        "sentence": "When an element is clicked, evaluate a condition, fetch data based on the result, and display the data.",
+        "nodes": [
+            "OnClick",
+            "Branch",
+            "FetchData",
+            "Show"
+        ]
+    },
+    {
+        "sentence": "Transform the data when a variable changes, log the transformation, and reduce elements into one.",
+        "nodes": [
+            "OnVariableChange",
+            "Map",
+            "Log",
+            "Reduce"
+        ]
+    },
+    {
+        "sentence": "Log a message when the window is resized, update the layout, and display the updated information.",
+        "nodes": [
+            "OnWindowResize",
+            "Log",
+            "Update",
+            "Show"
+        ]
+    },
+    {
+        "sentence": "Fetch data at specified time intervals, group the data by an attribute, and display the grouped data.",
+        "nodes": [
+            "OnTimer",
+            "FetchData",
+            "GroupBy",
+            "Show"
+        ]
+    },
+    {
+        "sentence": "Send a network request when an element is clicked, cache the response data, and render it as a chart.",
+        "nodes": [
+            "OnClick",
+            "SendRequest",
+            "CacheData",
+            "RenderChart"
+        ]
+    },
+    {
+        "sentence": "Log a message when a key is released, filter the data, and display the filtered data.",
+        "nodes": [
+            "OnKeyRelease",
+            "Log",
+            "Filter",
+            "Show"
+        ]
+    },
+    {
+        "sentence": "Show a tooltip when the mouse enters an element, highlight the element, and delete the data.",
+        "nodes": [
+            "OnMouseEnter",
+            "Tooltip",
+            "Highlight",
+            "DeleteData"
+        ]
+    },
+    {
+        "sentence": "Fetch data when a variable changes, sort the data, and display the sorted data.",
+        "nodes": [
+            "OnVariableChange",
+            "FetchData",
+            "Sort",
+            "Show"
+        ]
+    },
+    {
+        "sentence": "Delete records when an element is clicked.",
+        "nodes": [
+            "OnClick",
+            "Delete"
+        ]
+    },
+    {
+        "sentence": "Log a message when a key is pressed.",
+        "nodes": [
+            "OnKeyPress",
+            "Log"
+        ]
+    },
+    {
+        "sentence": "Highlight an element when the mouse enters it and delete the highlighted data.",
+        "nodes": [
+            "OnMouseEnter",
+            "Highlight",
+            "DeleteData"
+        ]
+    },
+    {
+        "sentence": "Update the display when a specified variable changes value.",
+        "nodes": [
+            "OnVariableChange",
+            "Update"
+        ]
+    },
+    {
+        "sentence": "Log a message when the window is resized.",
+        "nodes": [
+            "OnWindowResize",
+            "Log"
+        ]
+    },
+    {
+        "sentence": "Fetch data and play sound and stop sound at specified time intervals.",
+        "nodes": [
+            "OnTimer",
+            "FetchData",
+            "PlaySound",
+            "StopSound"
+        ]
+    },
+    {
+        "sentence": "Play a sound when a key is released.",
+        "nodes": [
+            "OnKeyRelease",
+            "PlaySound"
+        ]
+    },
+    {
+        "sentence": "Hide an element when the mouse leaves it and display an alert on screen.",
+        "nodes": [
+            "OnMouseLeave",
+            "Hide",
+            "Alert"
+        ]
+    },
+    {
+        "sentence": "Fetch data from an API and display it on the screen.",
+        "nodes": [
+            "FetchData",
+            "Show"
+        ]
+    },
+    {
+        "sentence": "Split the data, kog a message and display an alert.",
+        "nodes": [
+            "Split",
+            "Log",
+            "Alert"
+        ]
+    },
+    {
+        "sentence": "Navigate to a different URL or page when an element is clicked.",
+        "nodes": [
+            "OnClick",
+            "Navigate"
+        ]
+    },
+    {
+        "sentence": "Send a network request and log the response after the modal is closed.",
+        "nodes": [
+            "CloseModal",
+            "SendRequest",
+            "Log"
+        ]
+    },
+    {
+        "sentence": "Filter data based on specified criteria and display the filtered data.",
+        "nodes": [
+            "Filter",
+            "Show"
+        ]
+    },
+    {
+        "sentence": "Sort data based on specified criteria and display the data after merging the sorted data.",
+        "nodes": [
+            "Sort",
+            "Merge",
+            "Show"
+        ]
+    },
+    {
+        "sentence": "Fetch data from an API and cache it for performance improvement.",
+        "nodes": [
+            "FetchData",
+            "CacheData"
+        ]
+    },
+    {
+        "sentence": "Play a sound and log a message.",
+        "nodes": [
+            "PlaySound",
+            "Log"
+        ]
+    },
+    {
+        "sentence": "Assign a value to a variable and store the data.",
+        "nodes": [
+            "Assign",
+            "StoreData"
+        ]
+    },
+    {
+        "sentence": "Highlight an element and show a tooltip with additional information.",
+        "nodes": [
+            "Highlight",
+            "Tooltip"
+        ]
+    },
+    {
+        "sentence": "Log a message when an element is clicked.",
+        "nodes": [
+            "OnClick",
+            "Log"
+        ]
+    },
+    {
+        "sentence": "Save data to local storage or a database and display a confirmation message.",
+        "nodes": [
+            "Save",
+            "Show"
+        ]
+    },
+    {
+        "sentence": "Navigate to a different URL or page when an element is clicked and log the action.",
+        "nodes": [
+            "OnClick",
+            "Navigate",
+            "Log"
+        ]
+    },
+    {
+        "sentence": "Log a message when a key is pressed and display the key value on the screen.",
+        "nodes": [
+            "OnKeyPress",
+            "Log",
+            "Show"
+        ]
+    },
+    {
+        "sentence": "Highlight an element when the mouse enters, show a tooltip, and display additional information.",
+        "nodes": [
+            "OnMouseEnter",
+            "Highlight",
+            "Tooltip",
+            "Show"
+        ]
+    },
+    {
+        "sentence": "When a variable changes, fetch data, update the information, and display it.",
+        "nodes": [
+            "OnVariableChange",
+            "FetchData",
+            "Update",
+            "Show"
+        ]
+    },
+    {
+        "sentence": "Log a message when the window is resized and update the layout.",
+        "nodes": [
+            "OnWindowResize",
+            "Log",
+            "Update"
+        ]
+    },
+    {
+        "sentence": "Fetch data at specified time intervals, cache the response data, and display it.",
+        "nodes": [
+            "OnTimer",
+            "FetchData",
+            "CacheData",
+            "Show"
+        ]
+    },
+    {
+        "sentence": "Play a sound when a key is released and update the data.",
+        "nodes": [
+            "OnKeyRelease",
+            "PlaySound",
+            "UpdateData"
+        ]
+    },
+    {
+        "sentence": "Hide an element when the mouse leaves it and log the action.",
+        "nodes": [
+            "OnMouseLeave",
+            "Hide",
+            "Log"
+        ]
+    },
+    {
+        "sentence": "Fetch data from an API, transform the data format, cache it, and display the data.",
+        "nodes": [
+            "FetchData",
+            "Map",
+            "CacheData",
+            "Show"
+        ]
+    },
+    {
+        "sentence": "Log a message and display an alert and update the display with alert.",
+        "nodes": [
+            "Log",
+            "Alert",
+            "Update"
+        ]
+    },
+    {
+        "sentence": "Send a network request when an element is clicked and cache the response data.",
+        "nodes": [
+            "OnClick",
+            "SendRequest",
+            "CacheData"
+        ]
+    },
+    {
+        "sentence": "Send a network request, log the response, and update the display with the new information.",
+        "nodes": [
+            "SendRequest",
+            "Log",
+            "Update"
+        ]
+    },
+    {
+        "sentence": "Filter data based on specified criteria, sort it, and display the sorted data.",
+        "nodes": [
+            "Filter",
+            "Sort",
+            "Show"
+        ]
+    },
+    {
+        "sentence": "Sort data based on specified criteria, play a sound, display the sorted data and pause the sound.",
+        "nodes": [
+            "Sort",
+            "PlaySound",
+            "Show",
+            "PauseSound"
+        ]
+    },
+    {
+        "sentence": "Fetch data from an API, cache it for performance improvement, reduce the data into single data and display the data.",
+        "nodes": [
+            "FetchData",
+            "CacheData",
+            "Reduce",
+            "Show"
+        ]
+    },
+    {
+        "sentence": "Play a sound after logging a message.",
+        "nodes": [
+            "Log",
+            "PlaySound"
+        ]
+    },
+    {
+        "sentence": "Assign a value to a variable, store it, and display the data.",
+        "nodes": [
+            "Assign",
+            "StoreData",
+            "Show"
+        ]
+    },
+    {
+        "sentence": "Highlight an element and show a tooltip with additional information when data is deleted.",
+        "nodes": [
+            "DeleteData",
+            "Highlight",
+            "Tooltip"
+        ]
+    },
+    {
+        "sentence": "Log a message, display an alert, and show additional information when an element is clicked.",
+        "nodes": [
+            "OnClick",
+            "Log",
+            "Alert",
+            "Show"
+        ]
+    },
+    {
+        "sentence": "Save data to local storage or a database and display a confirmation message.",
+        "nodes": [
+            "Save",
+            "Show"
+        ]
+    },
+    {
+        "sentence": "Fetch data, evaluate a condition, transform the data, update the existing data, and display it.",
+        "nodes": [
+            "FetchData",
+            "Branch",
+            "Map",
+            "UpdateData",
+            "Show"
+        ]
+    },
+    {
+        "sentence": "When a variable changes, send a network request, cache the data, update the information, and render it as a chart.",
+        "nodes": [
+            "OnVariableChange",
+            "SendRequest",
+            "CacheData",
+            "Update",
+            "RenderChart"
+        ]
+    },
+    {
+        "sentence": "At specified time intervals, fetch data, sort it, group it by an attribute, and render it as a chart.",
+        "nodes": [
+            "OnTimer",
+            "FetchData",
+            "Sort",
+            "GroupBy",
+            "RenderChart"
+        ]
+    },
+    {
+        "sentence": "Play a sound, show a tooltip, highlight the element, and display additional information when the mouse enters.",
+        "nodes": [
+            "OnMouseEnter",
+            "PlaySound",
+            "Tooltip",
+            "Highlight",
+            "Show"
+        ]
+    },
+    {
+        "sentence": "Fetch data when a button is clicked, cache the data, and then display it on the screen.",
+        "nodes": [
+            "OnClick",
+            "FetchData",
+            "CacheData",
+            "Show"
+        ]
+    },
+    {
+        "sentence": "Log a message when the window is resized and update the display with the new dimensions.",
+        "nodes": [
+            "OnWindowResize",
+            "Log",
+            "Update"
+        ]
+    },
+    {
+        "sentence": "Send a request to fetch user data, filter out inactive users, and then show the active users on the screen.",
+        "nodes": [
+            "SendRequest",
+            "Filter",
+            "Show"
+        ]
+    },
+    {
+        "sentence": "Play a sound when a key is pressed and stop it when the key is released.",
+        "nodes": [
+            "OnKeyPress",
+            "PlaySound",
+            "OnKeyRelease",
+            "StopSound"
+        ]
+    },
+    {
+        "sentence": "Highlight an element when the mouse enters and hide it when the mouse leaves.",
+        "nodes": [
+            "OnMouseEnter",
+            "Highlight",
+            "OnMouseLeave",
+            "Hide"
+        ]
+    },
+    {
+        "sentence": "Show a tooltip when an element is clicked and then navigate to another page.",
+        "nodes": [
+            "OnClick",
+            "Tooltip",
+            "Navigate"
+        ]
+    },
+    {
+        "sentence": "Assign a new value to a variable when a key is pressed and log the new value.",
+        "nodes": [
+            "OnKeyPress",
+            "Assign",
+            "Log"
+        ]
+    },
+    {
+        "sentence": "Store data when the window is resized and alert the user that the data has been saved.",
+        "nodes": [
+            "OnWindowResize",
+            "StoreData",
+            "Alert"
+        ]
+    },
+    {
+        "sentence": "Fetch and merge data from two sources, then group by category and display the result.",
+        "nodes": [
+            "FetchData",
+            "Merge",
+            "GroupBy",
+            "Show"
+        ]
+    },
+    {
+        "sentence": "Log a message when a key is pressed and delete the corresponding data from storage.",
+        "nodes": [
+            "OnKeyPress",
+            "Log",
+            "DeleteData"
+        ]
+    },
+    {
+        "sentence": "Display a modal when a key is pressed, then close it when the key is released.",
+        "nodes": [
+            "OnKeyPress",
+            "DisplayModal",
+            "OnKeyRelease",
+            "CloseModal"
+        ]
+    },
+    {
+        "sentence": "Split a dataset into parts, reduce each part to a single value, and then log the results.",
+        "nodes": [
+            "Split",
+            "Reduce",
+            "Log"
+        ]
+    },
+    {
+        "sentence": "Save data when an element is clicked, update the display, and then hide the element.",
+        "nodes": [
+            "OnClick",
+            "Save",
+            "Update",
+            "Hide"
+        ]
+    },
+    {
+        "sentence": "Navigate to a new page when a key is pressed and alert the user upon arrival.",
+        "nodes": [
+            "OnKeyPress",
+            "Navigate",
+            "Alert"
+        ]
+    },
+    {
+        "sentence": "Pause sound when the mouse leaves an element and log the action.",
+        "nodes": [
+            "OnMouseLeave",
+            "PauseSound",
+            "Log"
+        ]
+    },
+    {
+        "sentence": "Show an alert when a variable changes and delete the variable's value.",
+        "nodes": [
+            "OnVariableChange",
+            "Alert",
+            "Delete"
+        ]
+    },
+    {
+        "sentence": "Send a request when a key is pressed, store the response data, and display it on the screen.",
+        "nodes": [
+            "OnKeyPress",
+            "SendRequest",
+            "StoreData",
+            "Show"
+        ]
+    },
+    {
+        "sentence": "Fetch and log data, then navigate to another page and log the new page URL.",
+        "nodes": [
+            "FetchData",
+            "Log",
+            "Navigate",
+            "Log"
+        ]
+    },
+    {
+        "sentence": "Group data by category, update the data, and then display the updated data.",
+        "nodes": [
+            "GroupBy",
+            "UpdateData",
+            "Show"
+        ]
+    },
+    {
+        "sentence": "Filter and merge data, then display it in a modal then close it afterwards.",
+        "nodes": [
+            "Filter",
+            "Merge",
+            "DisplayModal",
+            "CloseModal"
+        ]
+    },
+    {
+        "sentence": "Log when a key is pressed, fetch data, and then show the fetched data.",
+        "nodes": [
+            "OnKeyPress",
+            "Log",
+            "FetchData",
+            "Show"
+        ]
+    },
+    {
+        "sentence": "Highlight an element when the mouse enters, assign a value to a variable, and log the assignment.",
+        "nodes": [
+            "OnMouseEnter",
+            "Highlight",
+            "Assign",
+            "Log"
+        ]
+    },
+    {
+        "sentence": "Store data when a key is pressed, update the data, and then display it on the screen.",
+        "nodes": [
+            "OnKeyPress",
+            "StoreData",
+            "UpdateData",
+            "Show"
+        ]
+    },
+    {
+        "sentence": "Send a network request, save the response, and display an alert with the response.",
+        "nodes": [
+            "SendRequest",
+            "Save",
+            "Alert"
+        ]
+    },
+    {
+        "sentence": "Log a message when a key is pressed, delete the corresponding data, and show an alert.",
+        "nodes": [
+            "OnKeyPress",
+            "Log",
+            "DeleteData",
+            "Alert"
+        ]
+    },
+    {
+        "sentence": "Navigate to a different page on key press, fetch data on arrival, and log the fetched data.",
+        "nodes": [
+            "OnKeyPress",
+            "Navigate",
+            "FetchData",
+            "Log"
+        ]
+    },
+    {
+        "sentence": "Show an alert when the window is resized and then hide a specified element.",
+        "nodes": [
+            "OnWindowResize",
+            "Alert",
+            "Hide"
+        ]
+    },
+    {
+        "sentence": "Fetch data, split it based on criteria, and show the split data on the screen.",
+        "nodes": [
+            "FetchData",
+            "Split",
+            "Show"
+        ]
+    },
+    {
+        "sentence": "Log a message when the mouse leaves an element, then play a sound and show an alert.",
+        "nodes": [
+            "OnMouseLeave",
+            "Log",
+            "PlaySound",
+            "Alert"
+        ]
+    },
+    {
+        "sentence": "Store data when a key is pressed, reduce it to a single value, and then log the result.",
+        "nodes": [
+            "OnKeyPress",
+            "StoreData",
+            "Reduce",
+            "Log"
+        ]
+    },
+    {
+        "sentence": "Fetch and merge data, group by a category, and display the grouped data on the screen.",
+        "nodes": [
+            "FetchData",
+            "Merge",
+            "GroupBy",
+            "Show"
+        ]
+    },
+    {
+        "sentence": "Pause sound on mouse leave, log the action, and then show an alert.",
+        "nodes": [
+            "OnMouseLeave",
+            "PauseSound",
+            "Log",
+            "Alert"
+        ]
+    }
+]

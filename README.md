@@ -1,8 +1,11 @@
 # node-extractor
 
 ## Explanation
-In this project, a text-to-sequence-of-nodes project was developed for Icari task. The project uses the Llama-7b-chat-hf language model. This model has been directed for the task as desired with the help of prompting. A simple Swagger FastAPI has been set up to make the model available to the user test. You can follow the setup and testing steps below to try it out.
+In this project, a text-to-sequence-of-nodes application was developed for the Icari task. The project utilizes the Llama-7b-chat-hf language model, which has been effectively guided for the task through 'prompt' engineering. A simple Swagger FastAPI has been set up to make the model accessible for user testing. You can follow the setup and testing instructions below to try it out.
 
+The core of this project was optimizing the well-known 'llama' language model through well-designed prompting. Exact instructions for the model were provided along with generic examples. This approach yielded the highest accuracy.
+
+Note: As illustrated in 'data/data.json', more than 150 example prompts and their corresponding ground truth sequences of nodes are manually created to train(fine tune) a language model for this task. Although I chose the DistilBert model for this task, processing these data and fine-tuning the model did not achieve satisfactory results. The primary issue was the difficulty in augmenting or expanding the dataset, as the data must be genuine and thoroughly validated. While the trained model was successful in extracting nodes with high accuracy, it struggled with ordering these nodes correctly. Due to the lack of sufficient ground truth data and time, I shifted focus to using a well-trained language model and refined it with effective prompting. However, if you wish to review the data and code, please refer to 'data/data.json' and 'distilbert_trainer.py'.
 
 ## Building and Running:
 In order to build the docker container, you can use following docker commands:
@@ -34,3 +37,11 @@ Enter the input sentence to the 'sentence' textbox as seen below. Then clikck 'E
 
 You will see the result of the request on 'Response body' part at bottom side of the window.
 ![Step3](assets/3.png)
+
+
+## Unit&Integration Test
+You can run unit and integration tests by calling the following commands.
+```bash
+pytest test_action_extractor.py
+pytest test_integration.py
+```
