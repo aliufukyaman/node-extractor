@@ -7,6 +7,8 @@ The core of this project was optimizing the well-known 'llama' language model th
 
 Note: As illustrated in 'data/data.json', more than 150 example prompts and their corresponding ground truth sequences of nodes are manually created to train(fine tune) a language model for this task. Although I chose the DistilBert model (also gave a quick try to T5, GPT-2 language models but could not try some of them and others because of not having enough vram on my device)for this task, processing these data and fine-tuning the model did not achieve satisfactory results. The primary issue was the difficulty in augmenting or expanding the dataset, as the data must be genuine and thoroughly validated. While the trained model was successful in extracting nodes with high accuracy, it struggled with ordering these nodes correctly. Due to the lack of sufficient ground truth data and time, I shifted focus to using a well-trained language model and refined it with effective prompting. However, if you wish to review the data and code, please refer to 'data/data.json' and 'distilbert_trainer.py'.
 
+I also added an 'accuracy_evaluator.py' script to calculate the accuracy of the outputs. Using ground truth data and evaluating all examples, this metric showed that the current model's accuracy is 86%.
+
 ## Building and Running:
 In order to build the docker container, you can use following docker commands:
 
@@ -21,7 +23,7 @@ docker run   --rm   --gpus all   --ipc=host   -p 8080:80   -v ~/.cache/huggingfa
 
 To run the simple swagger UI of FastAPI, run the following command:
 ```bash
-docker run -it --add-host=host.docker.internal:host-gateway --name node-extractor -p 8081:8081 node-extractor-image
+docker run --rm -d --add-host=host.docker.internal:host-gateway --name node-extractor -p 8081:8081 node-extractor-image
 ```
 
 ## Usage of UI

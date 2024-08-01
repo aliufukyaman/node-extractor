@@ -1,4 +1,4 @@
-from fastapi import APIRouter
+from fastapi import APIRouter, FastAPI
 from langchain_community.llms import HuggingFaceTextGenInference
 from langchain.chains import LLMChain
 from langchain_experimental.chat_models import Llama2Chat
